@@ -1,0 +1,6 @@
+version: "3"
+services:
+  app:
+    image: brtlvrs/pwcli:latest
+    stdin_open: true # docker run -i
+    tty: true        # docker run -t
